@@ -41,7 +41,7 @@ Our goal is to calculate disease-specific patient-level PRS based on GWAS summar
 ## Installation 
 
 ## Flowchart
-<img width="448" alt="flowchart" src="##">
+<img width="448" alt="flowchart" src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/work_flowchart.jpg">
 Flowchart of the pipeline
 
 ## Results 
