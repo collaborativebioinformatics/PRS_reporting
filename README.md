@@ -39,10 +39,11 @@ Our goal is to calculate disease-specific patient-level PRS based on GWAS summar
     Some visualizations
 
 ## Installation 
+- Please git from the following url: https://github.com/collaborativebioinformatics/PRS_reporting
 
 ## Flowchart
 <img width="448" alt="flowchart" src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/work_flowchart.jpg">
-Flowchart of the pipeline
+(for the working pipelines)
 
 ## Results 
 
@@ -55,7 +56,7 @@ Flowchart of the pipeline
 
 ## References 
 
-- Data: 
-- GATK Best Practices https://gatk.broadinstitute.org/hc/en-us/sections/360007226651-Best-Practices-Workflows 
-- DSeq2 https://bioconductor.org/packages/release/bioc/html/DESeq2.html 
-- DNANexus documentation https://documentation.dnanexus.com/developer/apps/execution-environment/connecting-to-jobs 
+- Data source: https://www.ukbiobank.ac.uk/
+- GATK Best Practices: https://gatk.broadinstitute.org/hc/en-us/sections/360007226651-Best-Practices-Workflows 
+- DSeq2: https://bioconductor.org/packages/release/bioc/html/DESeq2.html 
+- DNANexus documentation: https://documentation.dnanexus.com/developer/apps/execution-environment/connecting-to-jobs 
