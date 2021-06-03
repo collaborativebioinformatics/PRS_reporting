@@ -2,12 +2,12 @@
 Smooth transition of called variants from RNAseq/DNAseq and expression to the clinic. 
 
 ## Contributors 
-- Yue Yang - Sysadmin 
+- Yue Yang - Lead 
 - Annie Nadkarni - Writer, Tech support 
-- Poojalakshmi Sreedhar - Tech support 
+- Poojalakshmi Sreedhar - Liaison 
 - ChunHsuan LO - Writer, Tech support 
 - David Enoma - Tech support 
-- Alex GUO - Liaison 
+- Alex Guo - SysAdmin
 
 ## Goal 
 Our goal is to calculate disease-specific patient-level PRS based on GWAS summary statistics for different disease. 
@@ -37,6 +37,9 @@ Our goal is to calculate disease-specific patient-level PRS based on GWAS summar
   Cohort-level:
     Predictive model
     Some visualizations
+
+### Phenotype Prediction Model
+Outputs the probability of an individual being affected by the disease. Trained by the cohort PRS scores and phenotype values from the UKB synthetic data. The base estimator is a random forest classifier.
 
 ## Installation 
 - Please git from the following url: https://github.com/collaborativebioinformatics/PRS_reporting
