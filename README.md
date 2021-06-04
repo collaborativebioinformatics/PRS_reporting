@@ -1,5 +1,4 @@
 # Polygenic Risk Scores to clinic
-Smooth transition of called variants from RNAseq/DNAseq and expression to the clinic. 
 
 ## Contributors 
 - Yue Yang - Lead 
@@ -108,9 +107,6 @@ PRS_feature_importance as weighting-parameters of PRS_value for the predictive m
 
 ## References 
 
-- Data source: https://www.ukbiobank.ac.uk/
-- GATK Best Practices: https://gatk.broadinstitute.org/hc/en-us/sections/360007226651-Best-Practices-Workflows 
-- DSeq2: https://bioconductor.org/packages/release/bioc/html/DESeq2.html 
 - DNANexus documentation: https://documentation.dnanexus.com/developer/apps/execution-environment/connecting-to-jobs
 - bigsnpR: https://cran.rstudio.com/web/packages/bigsnpr/bigsnpr.pdf
 - Scikit-learn: https://scikit-learn.org/stable/
