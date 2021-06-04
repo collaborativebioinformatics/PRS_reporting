@@ -75,10 +75,10 @@ Please use the DNAnexus workflows for PRS Computing and Phenotype Predictions to
 - Example input: plink BED files/ clinical outcome for individuals accordingly
 - Example output: PRS scores for individuals/ outcome prediction model using PRS scores/ outcome prediction model
 
-<img width="448" alt="feature importance" src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/feature_importance.jpeg">
+<img width="448" alt="feature importance" src="https://github.com/collaborativebioinformatics/PRS_reporting/blob/dev-README-06/04/2021/feature_importance.jpeg">
 Visualization of the importance of each PRS score to the prediction
 
-<img width="448" alt="disease probability" src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/disease_probability.jpeg">
+<img width="448" alt="disease probability" src="https://github.com/collaborativebioinformatics/PRS_reporting/blob/dev-README-06/04/2021/disease_probability.jpeg">
 Visualization of the probability of each sample being affected by the disease
 
 ## References 
