@@ -81,6 +81,8 @@ Visualization of the importance of each PRS score to the prediction
 <img width="448" alt="disease probability" src="https://github.com/collaborativebioinformatics/PRS_reporting/blob/dev-README-06/04/2021/disease_probability.jpeg">
 Visualization of the probability of each sample being affected by the disease
 
+<img width="448" alt="disease probability" src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/PRS_feature_importance.png">
+
 ## References 
 
 - Data source: https://www.ukbiobank.ac.uk/
