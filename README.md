@@ -1,4 +1,4 @@
-# Expression and SNPs to clinic
+# Polygenic Risk Scores to clinic
 Smooth transition of called variants from RNAseq/DNAseq and expression to the clinic. 
 
 ## Contributors 
