@@ -75,12 +75,16 @@ Please use the DNAnexus workflows for PRS Computing and Phenotype Predictions to
 - Example input: plink BED files/ clinical outcome for individuals accordingly
 - Example output: PRS scores for individuals/ outcome prediction model using PRS scores/ outcome prediction model
 
-  - Input to the prediction model (here we only demo 2 of 100,0000):
+  - Input to the prediction model (here we only demo 3 of 100,0000):
 
-<img width="400" alt="PRS_value of each feature for the example person." src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/Person_1_PRS.png">
+<img width="400" alt="PRS_value of each feature for the example person." src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/Person_1_PRS.png">
 PRS_value of each feature for the exmaple Person_01 
-<img width="400" alt="PRS_value of each feature for the example person." src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/Person_2_PRS.png">
+<img width="400" alt="PRS_value of each feature for the example person." src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/Person_2_PRS.png">
 PRS_value of each feature for the exmaple Person_02
+<img width="400" alt="PRS_value of each feature for the example person." src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/Person_3_PRS.png">
+PRS_value of each feature for the exmaple Person_03
+<img width="400" alt="PRS_value of each feature for the example person." src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/Person_4_PRS.png">
+PRS_value of each feature for the exmaple Person_04
 
   - Parameters of the prediction model (PRS weighting parameters for calculating the disease probability):
 
