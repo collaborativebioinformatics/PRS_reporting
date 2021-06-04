@@ -32,6 +32,7 @@ In this manuscript, we built a pipeline consisting of GWAS summary statistics do
 
 - Cohort-level:
   - Predictive model (.sav)
+  - Probability of being affected by the disease (.csv + visualization)
   - Importance of each feature(PRS) in the phenotype  - - prediction (.csv + visualization)
     
 ## Methods 
@@ -60,7 +61,7 @@ III. Clinical Outcome Prediction
 
 3. Predicts the probability of an individual being affected by the disease based on their PRS scores, as well as the impurity-based feature (each PRS score) importances to the prediction
 
-4. Visualizes the PRS score importances for explainability
+4. Visualizes the disease probability and PRS score importances for explainability
 
 ## Installation 
 Please use the DNAnexus workflows for PRS Computing and Phenotype Predictions to use this tool. 
@@ -74,11 +75,17 @@ Please use the DNAnexus workflows for PRS Computing and Phenotype Predictions to
 - Example input: plink BED files/ clinical outcome for individuals accordingly
 - Example output: PRS scores for individuals/ outcome prediction model using PRS scores/ outcome prediction model
 
+<img width="448" alt="feature importance" src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/feature_importance.jpeg">
+Visualization of the importance of each PRS score to the prediction
+
+<img width="448" alt="disease probability" src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/disease_probability.jpeg">
+Visualization of the probability of each sample being affected by the disease
+
 ## References 
 
 - Data source: https://www.ukbiobank.ac.uk/
 - GATK Best Practices: https://gatk.broadinstitute.org/hc/en-us/sections/360007226651-Best-Practices-Workflows 
 - DSeq2: https://bioconductor.org/packages/release/bioc/html/DESeq2.html 
 - DNANexus documentation: https://documentation.dnanexus.com/developer/apps/execution-environment/connecting-to-jobs
-- bigsnpR: 
-- Scikit-learn:  
+- bigsnpR: https://cran.rstudio.com/web/packages/bigsnpr/bigsnpr.pdf
+- Scikit-learn: https://scikit-learn.org/stable/
