@@ -13,56 +13,72 @@ Smooth transition of called variants from RNAseq/DNAseq and expression to the cl
 Our goal is to calculate disease-specific patient-level PRS based on GWAS summary statistics for different disease. 
 
 ## Introduction 
-- Input preparation:
-  Select traits & Download GWAS ssumary statistics from GWAS catlog (prepare GWAS summary statistics to be in the same form)
-  Prepare UKB synthetic genotype/ phenotype data
+Polygenic risk score (PRS) is a widely used method to model how the collective effect of many SNPs contributes to a phenotype. With the observance that Polygenic complex traits are associated with many SNPs, PRS is a powerful approach to associate individual genotype information to phenotype information. 
 
-- (Individual-level) Compute PRS:
-	  Compute PRS based on various p-value thresholds and GWAS summary statistics
+PRS can be used to quantify the probability that an individual could potentially develop the disease status given the genotype data, which makes it possible for its application in clinical prognosis and genetic testing. With the GWAS summary statistics of many complex traits available, polygenic risk scores are easily calculated given individual variant calling data. 
 
-- (Cohort-level) Build predictive models:
-    Build a predictive model using generated PRS scores on UKB synthetic data
+In this manuscript, we built a pipeline consisting of GWAS summary statistics downloading, PRS scores computing, predictive model construction, and visualization. This analysis flow can be leveraged to various clinical outcomes and potentially be used in clinical prognosis or genetic testing.
 
-## Methods
--Input:
-  GWAS summary statistics
-  Genotype data
-  Phenotype
+## Input:
 
--We identified synthetic UK Biobank data as Genotype/ Phenotype data input.
+- GWAS summary statistics
+- Genotype data
+- Phenotype
 
--Output: 
-  Patient-level: 
-    PRS scores
-  Cohort-level:
-    Predictive model
-    Some visualizations
+## Outputs: 
+
+- Patient-level: 
+  - PRS scores (.csv)
+
+- Cohort-level:
+  - Predictive model (.sav)
+  - Importance of each feature(PRS) in the phenotype  - - prediction (.csv + visualization)
     
-### PRS Scores
-Calculates the PRS scores based on the disease-relevant variants called in the genotype data and GWAS summary statistics. Due to the existence of various GWAS studies, one input subject would be assigned multiple PRS scores.
+## Methods 
 
-### Phenotype Prediction Model
-Outputs the probability of an individual being affected by the disease based on their PRS scores, as well as the impurity-based feature (each PRS score) importances to the prediction. Trained by the cohort PRS scores and phenotype values from the UKB synthetic data. The base estimator is a random forest classifier.
+I. Data Acquisition and Preprocessing:
+
+1. Download the GWAS summary statistics from GWAS Atlas
+
+2. Edit the headers to be consistent with the nomenclature established by PRSice
+
+3. Filter out irrelevant features
+
+II. PRS Score Calculation:
+
+1. Match the summary statistics and the variants called in the genotype data
+
+2. Select variants by different clumping thresholds
+
+3. Calculate the PRS scores using beta value of summary statistics accordingly
+
+III. Clinical Outcome Prediction
+
+1. Randomly generate phenotype labels for each of the sample
+
+2. Train a random forest classifier to predict the clinical outcome based on the calculated cohort PRS scores, save the trained model
+
+3. Predicts the probability of an individual being affected by the disease based on their PRS scores, as well as the impurity-based feature (each PRS score) importances to the prediction
+
+4. Visualizes the PRS score importances for explainability
 
 ## Installation 
-- Please git from the following url: https://github.com/collaborativebioinformatics/PRS_reporting
+Please use the DNAnexus workflows for PRS Computing and Phenotype Predictions to use this tool. 
 
 ## Flowchart
 <img width="448" alt="flowchart" src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/work_flowchart.jpg">
 (for the working pipelines)
 
-## Results 
+## Use Cases
 
-## notes
--Feedback from UX team
-  What is the model output?  Related likelihood? Some more clear output information(scores, images, pdf)
-  How are these information given to the other team?(database) database, model
-  How do we associate the phenotype and PRS? (can customize it based on gene information, probability for other disease, sample selection for clinical trials), Link to our github. build predictive models
-
+- Example input: plink BED files/ clinical outcome for individuals accordingly
+- Example output: PRS scores for individuals/ outcome prediction model using PRS scores/ outcome prediction model
 
 ## References 
 
 - Data source: https://www.ukbiobank.ac.uk/
 - GATK Best Practices: https://gatk.broadinstitute.org/hc/en-us/sections/360007226651-Best-Practices-Workflows 
 - DSeq2: https://bioconductor.org/packages/release/bioc/html/DESeq2.html 
-- DNANexus documentation: https://documentation.dnanexus.com/developer/apps/execution-environment/connecting-to-jobs 
+- DNANexus documentation: https://documentation.dnanexus.com/developer/apps/execution-environment/connecting-to-jobs
+- bigsnpR: 
+- Scikit-learn:  
