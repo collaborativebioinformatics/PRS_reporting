@@ -88,6 +88,7 @@ Distribution of the importance of each PRS score to the prediction
 
 - Input to the prediction model (here we only demo 4 of 100,0000):
 
+
 <img width="750" alt="PRS_value of each feature for the example person." src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/Person_1_PRS.png">
 PRS_value of each feature for the exmaple Person_01 
 
@@ -99,6 +100,7 @@ PRS_value of each feature for the exmaple Person_03
 
 <img width="750" alt="PRS_value of each feature for the example person." src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/Person_4_PRS.png">
 PRS_value of each feature for the exmaple Person_04
+
 
 - Parameters of the prediction model (PRS weighting parameters for calculating the disease probability):
 
