@@ -86,18 +86,22 @@ Distribution of the importance of each PRS score to the prediction
 
 ### Appendix
 
-- Input to the prediction model (here we only demo 3 of 100,0000):
+#### Input to the prediction model (here we only demo 4 of 100,0000):
 
 <img width="750" alt="PRS_value of each feature for the example person." src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/Person_1_PRS.png">
-    - PRS_value of each feature for the exmaple Person_01 
-<img width="750" alt="PRS_value of each feature for the example person." src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/Person_2_PRS.png">
-    - PRS_value of each feature for the exmaple Person_02
-<img width="750" alt="PRS_value of each feature for the example person." src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/Person_3_PRS.png">
-    - PRS_value of each feature for the exmaple Person_03
-<img width="750" alt="PRS_value of each feature for the example person." src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/Person_4_PRS.png">
-    - PRS_value of each feature for the exmaple Person_04
+PRS_value of each feature for the exmaple Person_01 
 
-- Parameters of the prediction model (PRS weighting parameters for calculating the disease probability):
+<img width="750" alt="PRS_value of each feature for the example person." src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/Person_2_PRS.png">
+PRS_value of each feature for the exmaple Person_02
+
+<img width="750" alt="PRS_value of each feature for the example person." src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/Person_3_PRS.png">
+PRS_value of each feature for the exmaple Person_03
+
+<img width="750" alt="PRS_value of each feature for the example person." src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/Person_4_PRS.png">
+PRS_value of each feature for the exmaple Person_04
+
+
+#### Parameters of the prediction model (PRS weighting parameters for calculating the disease probability):
 
 <img width="448" alt="feature importance in details (for each feature, totally 1400)" src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/PRS_feature_importance.png">
 PRS_feature_importance as weighting-parameters of PRS_value for the predictive model
