@@ -77,18 +77,18 @@ Please use the DNAnexus workflows for PRS Computing and Phenotype Predictions to
 
   - Input to the prediction model (here we only demo 3 of 100,0000):
 
-<img width="400" alt="PRS_value of each feature for the example person." src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/Person_1_PRS.png">
+<img width="750" alt="PRS_value of each feature for the example person." src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/Person_1_PRS.png">
     - PRS_value of each feature for the exmaple Person_01 
-<img width="400" alt="PRS_value of each feature for the example person." src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/Person_2_PRS.png">
+<img width="750" alt="PRS_value of each feature for the example person." src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/Person_2_PRS.png">
     - PRS_value of each feature for the exmaple Person_02
-<img width="400" alt="PRS_value of each feature for the example person." src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/Person_3_PRS.png">
+<img width="750" alt="PRS_value of each feature for the example person." src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/Person_3_PRS.png">
     - PRS_value of each feature for the exmaple Person_03
-<img width="400" alt="PRS_value of each feature for the example person." src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/Person_4_PRS.png">
+<img width="750" alt="PRS_value of each feature for the example person." src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/Person_4_PRS.png">
     - PRS_value of each feature for the exmaple Person_04
 
   - Parameters of the prediction model (PRS weighting parameters for calculating the disease probability):
 
-<img width="448" alt="feature importance in details (for each feature, totally 1400)" src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/PRS_feature_importance.png">
+<img width="800" alt="feature importance in details (for each feature, totally 1400)" src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/PRS_feature_importance.png">
     - PRS_feature_importance as weighting-parameters of PRS_value for the predictive model
 
 <img width="448" alt="feature importance" src="https://github.com/collaborativebioinformatics/PRS_reporting/blob/dev-README-06/04/2021/feature_importance.jpeg">
@@ -96,7 +96,7 @@ Please use the DNAnexus workflows for PRS Computing and Phenotype Predictions to
 
   - Output from the prediction model:
 
-<img width="448" alt="disease probability in details (for each intividuals, totally 100,000)" src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/Disease_probability.png">
+<img width="800" alt="disease probability in details (for each intividuals, totally 100,000)" src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/Disease_probability.png">
     - Disease_probability being estimated by the predictive model
 
 <img width="448" alt="disease probability" src="https://github.com/collaborativebioinformatics/PRS_reporting/blob/dev-README-06/04/2021/disease_probability.jpeg">
