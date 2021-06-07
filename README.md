@@ -74,13 +74,13 @@ Please use the DNAnexus workflows for PRS Computing and Phenotype Predictions to
 - Example input: plink BED files/ clinical outcome for individuals accordingly
 - Example output: PRS scores for individuals/ outcome prediction model using PRS scores/ outcome prediction model
 
-Disease probability predicted for each sample:
+Disease probability predicted for each sample:\n
 <img width="1200" alt="disease probability in details (for each intividuals, totally 100,000)" src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/disease_probability.png">
 
-Distribution of the probability of each sample being affected by the disease:
+Distribution of the probability of each sample being affected by the disease:\n
 <img width="448" alt="disease probability" src="https://github.com/collaborativebioinformatics/PRS_reporting/blob/dev-README-06/04/2021/disease_probability.jpeg">
 
-Distribution of the importance of each PRS score to the prediction:
+Distribution of the importance of each PRS score to the prediction:\n
 <img width="448" alt="feature importance" src="https://github.com/collaborativebioinformatics/PRS_reporting/blob/dev-README-06/04/2021/feature_importance.jpeg">
 
 ### Appendix
@@ -102,7 +102,7 @@ PRS_value of each feature for the exmaple Person_04:
 
 #### Parameters of the prediction model (PRS weighting parameters for calculating the disease probability):
 
-PRS_feature_importance as weighting-parameters of PRS_value for the predictive model:
+PRS_feature_importance as weighting-parameters of PRS_value for the predictive model:\n
 <img width="448" alt="feature importance in details (for each feature, totally 1400)" src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/PRS_feature_importance.png">
 
 ## References 
