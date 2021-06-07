@@ -66,7 +66,7 @@ III. Clinical Outcome Prediction
 Please use the DNAnexus workflows for PRS Computing and Phenotype Predictions to use this tool. 
 
 ## Flowchart
-<img width="1100" alt="flowchart" src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/work_flowchart.jpg">
+<img width="1200" alt="flowchart" src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/work_flowchart.jpg">
 (for the working pipelines)
 
 ## Use Cases
@@ -74,7 +74,7 @@ Please use the DNAnexus workflows for PRS Computing and Phenotype Predictions to
 - Example input: plink BED files/ clinical outcome for individuals accordingly
 - Example output: PRS scores for individuals/ outcome prediction model using PRS scores/ outcome prediction model
 
-<img width="448" alt="disease probability in details (for each intividuals, totally 100,000)" src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/disease_probability.png">
+<img width="1200" alt="disease probability in details (for each intividuals, totally 100,000)" src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/disease_probability.png">
 Disease probability predicted for each sample
 
 <img width="448" alt="disease probability" src="https://github.com/collaborativebioinformatics/PRS_reporting/blob/dev-README-06/04/2021/disease_probability.jpeg">
