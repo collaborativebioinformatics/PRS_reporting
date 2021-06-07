@@ -103,7 +103,7 @@ PRS_value of each feature for the exmaple Person_04:<br/>
 #### Parameters of the prediction model (PRS weighting parameters for calculating the disease probability):
 
 PRS_feature_importance as weighting-parameters of PRS_value for the predictive model:<br/>
-<img width="448" alt="feature importance in details (for each feature, totally 1400)" src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/PRS_feature_importance.png">
+<img width="1200" alt="feature importance in details (for each feature, totally 1400)" src="https://github.com/collaborativebioinformatics/PRS_reporting/raw/main/outputs/results_visualization/png_format/better_sizes/PRS_feature_importance.png">
 
 ## References 
 
